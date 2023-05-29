@@ -1,0 +1,238 @@
+body{
+    font-family: 'Pangolin', cursive;
+}
+.fondo{
+    width: auto;
+    height: 1024px;
+    background: rgb(213, 234, 240);
+}
+.vector{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+.mensaje{
+    position: absolute;
+    left: 140px;
+    top: 100px;
+}
+#mensaje{
+    background-color: rgb(213, 234, 240);
+    font-size: 25px;
+    width: 750px;
+}
+.advertencia{
+    position: absolute;
+    left: 140px;
+    top: 560px;
+    font-size: small;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 140px;
+    top: 585px;
+    text-align: center;
+}
+#encriptar{
+    flex-direction: row;
+    text-align: center;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    order: 0;
+    flex-grow: 0;
+    color: white;
+}
+#desencriptar{
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+}
+#muñeco{
+    position: absolute;
+    width: 350px;
+    height: 615px;
+    left: 1000px;
+    top: 40px;
+    background-color: white;
+    border-radius: 32px;    
+}
+#letras{
+    position: absolute;
+    width: 350px;
+    height: 615px;
+    left: 1000px;
+    top: 400px;
+    border-radius: 32px;    
+}
+#img{
+    position: relative;
+    padding: 30px ;
+    left: -20px;
+}
+.titulo{
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    padding: 10px;
+}
+.subtitulo{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+.resultado{
+    position: relative;
+    width: 500px;
+    height: 615px;
+    left: 1020px;
+    top: 50px;
+}
+#resultado{
+    background-color: white;
+    font-size: 25px;
+    border-color: white;
+    display: none;
+}
+#copiar{
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    display: none;
+}
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px;
+    color: white;
+}
+strong{
+
+    font-weight: bold;
+}
+#redes{
+    padding-left: 20px;
+}
+@media screen and (max-width:768px){
+    .vector{
+        position: relative;
+        text-align: center;
+        left: 0px;
+    }
+    .mensaje{
+        position: relative;
+        width: auto;
+        left: auto;
+    }
+    #mensaje{
+        background-color: rgb(213, 234, 240);
+        font-size: 25px;
+        width: 92%;
+        margin: 4%;
+        left: 0px;
+        position: relative;
+        top: -50px;
+    }
+    .advertencia{
+        left: 10px;
+        top: 520px;
+    }
+    .botones{
+        position: relative;
+        width: 92%;
+        margin: 4%;
+        left: 0px;
+        gap: 5px;
+        top: 60px;
+    }
+    #muñeco{
+        visibility: hidden;
+        position: absolute;
+        width: 300px;
+        height: 615px;
+        left: auto;
+        top: 40px;
+        background-color: white;
+        border-radius: 32px;  
+    }
+    #letras{
+        width: 92%;
+        margin: 4%;
+        height: 150px;
+        left: 0px;
+        top: 674px;
+        border-radius: 0%;
+        background-color: white;
+    }
+    .resultado{
+        position: relative;
+        width: 100%;
+        height: 615px;
+        left: 0px;
+        top: 170px;
+    }
+    #resultado{
+        height: 150px;
+        width: 92%;
+        margin: 4%;
+        position: relative;
+        top: -120px;
+        left: 0px;
+    }
+    #copiar{ 
+        position: relative;
+        top: -120px;
+        left: 0px;
+        width: 92%;
+        margin: 4%;
+    }
+    footer{
+        padding: 30px;
+    }
+}
+@media screen and (max-width:550px){
+    .botones{
+        display: inline;
+        position: absolute;
+        width: 92%;
+        margin: 4%;
+        left: 0px;
+        gap: 5px;
+        top: 550px;
+    }
+    #encriptar{
+        width: 92%;
+        margin: 4%;
+    }
+    #desencriptar{
+        position: relative;
+        top: -20px;
+        width: 92%;
+        margin: 4%;
+    }
+    #letras{
+        top: 730px;
+    }
+    #resultado{
+        top: 90px;
+    }
+    #copiar{
+        top: 70px;
+    }
+    footer{
+        padding: 10px;
+    }
+}
