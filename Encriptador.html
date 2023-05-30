@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador Nicolas</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <div class="fondo">
+                <div class="vector">
+                    <img src="Vector.png" alt="logo">
+                </div>
+                <div class="mensaje">
+                    <label for="mensaje"></label>
+                    <textarea name="mensaje" id="mensaje" cols="50" rows="13" placeholder="Ingrese texto aquí"></textarea >
+                </div>
+                <div class="advertencia">
+                    <img src="Simbolo.png" alt="Simbolo" id="img2">
+                    <d> Solo letras minúsculas y sin acentos</d>
+                </div>
+                <div class="botones">
+                    <button id="encriptar">Encriptar</button>
+                    <button id="desencriptar">Desencriptar</button>
+                </div>
+                <div id="muñeco">
+                    <img src="Muñeco.png" alt="Dibujo" id="img">
+                </div>
+                <div  id="letras">
+                    <d class="titulo" >Ningún mensaje fue encontrado</d>
+                    <d class="subtitulo">Ingrese el texto que desee encriptar o desencriptar</d>
+                </div>
+                <div class="resultado">
+                    <label for="resultado"></label>
+                    <textarea name="mensaje" id="resultado" cols="21" rows="17"></textarea >
+                    <button id="copiar">Copiar</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <b>Hecho por <strong>Nicolas Vargas</strong></b>
+            <img src="gmail.png" alt="Gmail" id="redes">
+            <img src="whatsapp.png" alt="Whatsapp" id="redes">
+            <img src="facebook.png" alt="Facebook" id="redes">
+            <img src="linkedin.png" alt="Gmail" id="redes">
+        </footer>
+    </body>
+</html>
+<script src="main.js"></script>
