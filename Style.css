@@ -205,23 +205,12 @@ strong{
 }
 @media screen and (max-width:550px){
     .botones{
-        display: inline;
         position: absolute;
         width: 92%;
         margin: 4%;
         left: 0px;
         gap: 5px;
         top: 550px;
-    }
-    #encriptar{
-        width: 92%;
-        margin: 4%;
-    }
-    #desencriptar{
-        position: relative;
-        top: -20px;
-        width: 92%;
-        margin: 4%;
     }
     #letras{
         top: 730px;
