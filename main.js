@@ -21,8 +21,13 @@ function limpiar(){
 function limpiar2(){
     document.getElementById("copiar").style.display="inline";
 }
-function todos(){
+function encriptarFinal(){
     encriptar();
+    limpiar();
+    limpiar2();
+}
+function desencriptarFinal(){
+    desencriptar();
     limpiar();
     limpiar2();
 }
@@ -30,6 +35,6 @@ function copiar(){
     var mensajeEncriptado=resultadoMostrado.value;
     navigator.clipboard.writeText(mensajeEncriptado);
 }
-botonE.onclick=todos;
-botonD.onclick=desencriptar;
+botonE.onclick=encriptarFinal;
+botonD.onclick=desencriptarFinal;
 botonC.onclick=copiar;
